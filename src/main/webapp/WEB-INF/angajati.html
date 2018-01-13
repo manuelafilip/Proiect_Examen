@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Angajati</title>
+
+    <link rel="stylesheet" type="text/css" href="design/css/stayle.css"/>
+    <script src="/Angajati"></script>
+
+    <script src="design/css/stayle.css" type="text/javascript"></script>
+
+    <link rel="icon" type="image/x-icon" href="design/img/Anvis.gif">
+</head>
+<body>
+
+<div class="conteiner dark">
+    <div class="wrapper" id="top_div">
+        <div id="top_left">
+            Email:xxx@gmail.com
+        </div>
+        <div id="top_right">
+            Mobil:.755380510
+        </div>
+    </div>
+</div>
+
+
+<div class="conteiner4">
+
+    <nav id="navMenu">
+        <ul id="meniu">
+            <li><a href="index.html">Acasa</a></li>
+            <li><a href="#">Nomenclatoare</a>
+                <ul class="submeniu">
+                    <li><a href="angajati.html">Angajati</a></li>
+                    <li><a href="utilaje.html">Utilaje</a></li>
+                </ul>
+            </li>
+            <li><a href="tablouEditare.html">Tablou editare</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+
+        <br class="clearFloat"/>
+    </nav>
+</div>
+
+<div class="conteiner5">
+
+    <!--<img src="backMeniu.jpg" class="imgMeniu">-->
+
+</div>
+
+
+<div id="content">
+
+
+    <form action="tblAngajati" method="post">
+        <input type="hidden" name="idang">
+        <input type="text" name="marca" placeholder="Marca" required="required">
+        <input type="text" name="nume" placeholder="Nume" required="required">
+        <input type="text" name="prenume" placeholder="Prenume" required="required">
+        <input type="text" name="schimb" placeholder="Schimb">
+        <input type="text" name="functie" placeholder="Functie">
+        <input type="text" name="departament" placeholder="Departament">
+        <input type="text" name="dataAngajare" placeholder="Data Angajare">
+        <input type="text" name="dataIncetare" placeholder="Data Incetare">
+
+        <button>Save</button>
+    </form>
+    <br>
+
+    <table id="agenda">
+        <thead>
+        <tr>
+            <th>Marca</th>
+            <th>Nume</th>
+            <th>Prenume</th>
+            <th>Schimb</th>
+            <th>Functie</th>
+            <th>Departament</th>
+            <th>Data angajare</th>
+            <th>Data incetare</th>
+            <th width="90"></th>
+        </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</div>
+
+<div class="clear"></div>
+</div>
+
+</body>
+</html>

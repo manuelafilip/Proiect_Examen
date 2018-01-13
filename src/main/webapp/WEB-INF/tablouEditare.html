@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>TablouEditare</title>
+
+    <link rel="stylesheet" type="text/css" href="design/css/stayle.css"/>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+    <script src="design/css/stayle.css" type="text/javascript"></script>
+    <link rel="icon" type="image/x-icon" href="design/img/Anvis.gif">
+
+</head>
+<body>
+
+<div class="conteiner dark">
+    <div class="wrapper" id="top_div">
+        <div id="top_left">
+            Email:xxx@gmail.com
+        </div>
+        <div id="top_right">
+            Mobil:.755380510
+        </div>
+    </div>
+</div>
+
+
+<div class="conteiner4">
+
+    <nav id="navMenu">
+        <ul id="meniu">
+            <li><a href="index.html">Acasa</a></li>
+            <li><a href="#">Nomenclatoare</a>
+                <ul class="submeniu">
+                    <li><a href="angajati.html">Angajati</a></li>
+                    <li><a href="utilaje.html">Utilaje</a></li>
+                </ul>
+            </li>
+            <li><a href="tablouEditare.html">Tablou editare</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+
+        <br class="clearFloat"/>
+    </nav>
+</div>
+
+<div class="conteiner5">
+
+    <!--<img src="backMeniu.jpg" class="imgMeniu">-->
+
+</div>
+
+
+<div id="content">
+
+
+    <form action="js/mocks/load-contacts.json" method="post">
+        <input type="hidden" name="id">
+        <input type="text" name="marca" placeholder="Marca" required="required">
+        <input type="text" name="nume" placeholder="Nume" required="required">
+        <input type="text" name="prenume" placeholder="Prenume" required="required">
+        <input type="text" name="schimb" placeholder="Schimb">
+        <input type="text" name="cod" placeholder="cod" required="required">
+        <input type="text" name="categorie" placeholder="Categorie">
+        <input type="text" name="denumire" placeholder="Denumire">
+        <input type="text" name="tipFormare" placeholder="Tip formare">
+        <input type="text" name="data" placeholder="Data">
+        <input type="text" name="formator" placeholder="Formator">
+        <input type="text" name="calificativ" placeholder="Calificativ">
+        <input type="text" name="nrore" placeholder="Nr Ore">
+        <button>Save</button>
+    </form>
+    <br>
+
+    <table id="agenda">
+        <thead>
+        <tr>
+            <th>Marca</th>
+            <th>Nume</th>
+            <th>Prenume</th>
+            <th>Schimb</th>
+            <th>Cod</th>
+            <th>Categorie</th>
+            <th>Denumire</th>
+            <th>Tip formare</th>
+            <th>Data</th>
+            <th>Formator</th>
+            <th>Calificativ</th>
+            <th>Nr Ore</th>
+            <th width="90"></th>
+        </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</div>
+
+<div class="clear"></div>
+</div>
+
+</body>
+</html>

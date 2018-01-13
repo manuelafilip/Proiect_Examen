@@ -1,0 +1,199 @@
+/* MainPage ....................................*/
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: darkgrey;
+    font-family: Verdana, Arial, Georgia, Times, serif;
+    color: black;
+}
+
+.conteiner {
+    width: 100%;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.dark {
+    background-color: #31353d;
+    color: white;
+}
+
+.light {
+    background-color: darkred;
+}
+
+/*.imgMeniu{*/
+/*width: 300%;*/
+/*height: 2px;*/
+/*opacity: 0.95;*/
+/*}*/
+
+#top_left {
+    display: inline-block;
+
+}
+
+#top_right {
+    float: right;
+
+}
+
+#top_div {
+    height: 150%;
+    line-height: 150%;
+}
+
+#logo_left {
+    display: inline-block;
+}
+
+#logo_right {
+    float: right;
+}
+
+.container2 {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.image {
+    opacity: 1;
+    display: inline-block;
+    width: 80%;
+    height: 550px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.container2:hover .image {
+    opacity: 0.6;
+}
+
+.containe2:hover .middle {
+    opacity: 1;
+}
+
+.conteiner3 {
+    width: 80%;
+    height: 10px;
+    margin: auto;
+    position: relative;
+    background-color: darkred;
+    color: black;
+}
+
+
+
+.clearFloat {
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+
+/* Meniu ....................................*/
+
+.conteiner4 {
+    background-color: darkred;
+}
+
+#navMenu ul {
+    /*margin: 0;*/
+    margin-bottom: 65px;
+    padding: 0;
+    line-height: 30px;
+    float: right;
+
+}
+
+#navMenu li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    position: relative;
+    background-color: grey;
+    border-radius: 10px;
+
+}
+
+#navMenu ul li a {
+    text-align: center;
+    font-family: "Comic Sans MS", Times, serif;
+    text-decoration: none;
+    height: 30px;
+    width: 150px;
+    display: block;
+    color: midnightblue;
+    border: 1px solid rgba(85, 107, 47, 0.6);
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+}
+
+#navMenu ul ul {
+    position: absolute;
+    visibility: hidden;
+    top: 32px;
+    display: inline;
+    border-radius: 10px;
+}
+
+#navMenu ul li:hover ul {
+    visibility: visible;
+}
+
+/******************/
+#navMenu li:hover {
+    background-color: darkgrey;
+}
+
+#navMenu ul li:hover ul li a:hover {
+    background: darkgrey;
+    color: whitesmoke;
+}
+
+#navMenu a:hover {
+    color: whitesmoke;
+
+}
+
+.clearFloat {
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+
+/* tabelul...................*/
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+th {
+    background-color: white;
+    color: black;
+}
